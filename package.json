@@ -1,0 +1,42 @@
+{
+  "name": "bank-challenge",
+  "version": "1.0.0",
+  "description": "This challenge helps you practice your OO design skills.",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jasmine",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgespvas/bank-challenge.git"
+  },
+  "author": "Jorge Espinoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgespvas/bank-challenge/issues"
+  },
+  "homepage": "https://github.com/jorgespvas/bank-challenge#readme",
+  "devDependencies": {
+    "jasmine": "^4.5.0"
+  },
+  "dependencies": {
+    "brace-expansion": "^1.1.11",
+    "balanced-match": "^1.0.2",
+    "glob": "^7.2.3",
+    "fs.realpath": "^1.0.0",
+    "minimatch": "^3.1.2",
+    "inherits": "^2.0.4",
+    "concat-map": "^0.0.1",
+    "jasmine-core": "^4.5.0",
+    "inflight": "^1.0.6",
+    "once": "^1.4.0",
+    "path-is-absolute": "^1.0.1",
+    "wrappy": "^1.0.2"
+  },
+  "keywords": []
+}
